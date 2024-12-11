@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header{
+    background-color: #d94663a4;
+}
+
+li{
+    display: inline-block;
+    color: #120a6c;
+    margin: 0 auto;
+    font-family: Algerian;
+}
+
+li a{
+    color: #5b321d;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    transition: background-color 0.4s;
+}
+
+li a:hover{
+    background-color: #3dd39cae;
+}
+
+.portada{
+    height: 300px;
+    background-image: url(https://www.yomeanimo.com/wp-content/uploads/2023/08/Paisaje-de-montanas-y-rio.jpg);
+    background-size: cover;
+}
+
+.btn1{
+    background-color: #8e39e2;
+    height: 40px;
+    width: 80px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 17.5px;
+    text-decoration: none;
+    color: #310303;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 270px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.cartas{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.cartas div{
+    width: 335px;
+    height: 400px;
+    display: inline-block;
+    background-color: #b65064cf;  
+    margin: 10px 15px;
+    color: #021b02;
+    padding: 15px;
+    transition: box-shadow, 0.3s;
+}
+
+.cartas div:hover{
+    box-shadow: 0 0 10px 6px #302f2f;
+}
+
+.catas div img{
+    width: 330px;
+    height: 200px;
+}
+
+.cartas div p{
+    text-align: justify;
+}
+
+.info{
+    max-width: 700px;
+    margin: 15px auto;
+    text-align: center;
+    background-color: #4c73ea;
+    padding: 15px;
+}
+
+.info p{
+    text-align: justify;
+}
+
+footer{
+    background-color: chocolate;
+    color: beige;
+    padding: 20px;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: #e75fbe;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    /* PROPIEDADES DE TRANSICION */
+    transition-property: top,color,width;
+    transition-duration: 1s;
+    transition-timing-function: j;/*ease,ease-in,ease-in-out,ease-out */
+    transition-delay: 3s;
+    /* Propiedad corta:transition: 1 valor es el t.property,2 valor es el t.duration,
+    3 valor t.timing function,4 valor t.delay */
+    transition: top 2s cubic-bezier(cubic-bezier(.47,.88,.74,.14));
+    top: 0;
+}
+
+body:hover .caja{
+    top: 500px;
+    color: yellow;
+    width: 350px;
+}
+
+
+
+
+

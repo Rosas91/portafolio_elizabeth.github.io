@@ -1,0 +1,154 @@
+header{
+    background-image: url(https://hotel-el-tumi-huaraz.hotelmix.es/data/Photos/450x450/12657/1265775/1265775055/El-Tumi-Hotel-Huaraz-Exterior.JPEG);
+    background-size: cover;
+    text-align: center;
+    color: #1e0215;
+    font-family: Broadway;
+    padding: 40px;
+    font-size: 20px;
+}
+p{
+    color: #39214be7;
+    font-size: 20px;
+    font-family: Arial Black;
+}
+
+nav li{
+    display: inline-block;
+}
+
+.m_horizontal{
+    display: flex;
+}
+
+.m_horizontal > li{
+    margin: 0 15px;
+}
+
+.m_horizontal > li > a{
+    display: block;
+    padding: 10px 20px;
+}
+
+.m_horizontal > li > a:hover{
+    background-color: brown;
+    color: beige;
+}
+
+.m_horizontal a{
+    color: #430303;
+    text-decoration: none;
+}
+
+.m_vertical{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.m_horizontal > li:hover .m_vertical{
+    display: block;
+}
+
+.m_vertical{
+    background-color: #14a45e;
+    width: 155px;
+}
+
+.m_vertical li{
+    padding: 0;
+}
+
+.m_vertical li:hover{
+    background-color: #77c448;
+}
+
+.m_vertical a{
+    display: block;
+    color: blue;
+    padding: 5px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #100e4f;
+    font-family: Arial Black;
+    font-size: 15px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.cartas{
+    display: flex;
+    justify-content: center;
+}
+
+.cartas div{
+    width: 250px;
+    border-radius: 5px;
+    background-color: #aeb6db;
+    margin: 0 15px;
+    color: black;
+    padding:15px;
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+footer{
+    background-color: #2f3c40;
+    display: flex;
+    color: white;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+h3{
+    color: #e9e62c;
+}
+
+/* ASIDE */
+
+.contain-main{
+    display: flex;
+}
+
+aside{
+    padding: 10px;
+}
+
+aside li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+aside:last-child img{
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+h2{
+    color: #e22b3d;
+}
+
+
+

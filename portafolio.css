@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #dc9146;
+    display: flex;
+    font-family: Comic Sans MS;
+    justify-content: center;
+    padding: 1px;
+}
+
+nav{
+width:100vw;}
+nav li{
+    list-style: none;
+    font-family: Comic Sans MS;
+}
+
+.m_horizontal{
+    display: flex;
+    justify-content: center;
+}
+
+.m_horizontal > li{
+    margin: 0 15px;
+}
+
+.m_horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+}
+
+.m_horizontal > li > a:hover{
+    background-color: brown;
+    color: beige;
+}
+
+.m_horizontal a{
+    color: #430303;
+    text-decoration: none;
+}
+
+.m_vertical{
+    display: none;
+    position: absolute;
+}
+
+.m_horizontal > li:hover .m_vertical{
+    display: block;
+}
+
+.m_vertical{
+    background-color: #14a45e;
+    width: 110px;
+}
+
+.m_vertical li{
+    padding: 0px;
+}
+
+.m_vertical li:hover{
+    background-color: #77c448;
+}
+
+.m_vertical a{
+    display: block;
+    color: blue;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: Comic Sans MS;
+
+}
+
+.sec1{
+    display: flex;
+    background: linear-gradient(#da9a47,#141001 );
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+
+.sec1 div{
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+

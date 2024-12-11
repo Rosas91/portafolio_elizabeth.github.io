@@ -1,0 +1,123 @@
+h1{
+    color:red;
+    text-align: center;
+    font-family: Forte;
+    font-size: 50px;
+}
+
+.p1{
+    color:blue;
+    font-family: Comic Sans MS;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 1.5;
+    letter-spacing: 3px;
+}
+
+.p2{
+    color:brown;
+    font-family: Comic Sans MS;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 1.5;
+    letter-spacing: 3px;
+}
+
+ul{
+    background-color:yellow;
+    font-style: italic;
+    font-family: Comic Sans MS;
+    width: 250px;  /*color de fondo "ancho"*/
+    height: 100px;   /*color de fondo "alto"*/
+}
+
+.Enlace{
+    text-align: right;
+}
+
+.padding{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    /*padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px; Esto es para aplicar lado por lado
+    padding: 50px; Para aplicar de manera simultanea a todos los lados*/
+    padding: 25px 5px 30px 10px; /*Aplicar lado por lado*/
+}
+
+.formulario{
+    background-color: purple;
+    /*padding-top: 25px;
+    padding-bottom: 25px;*/
+    /*padding: 0 50px 0 50px*/
+    /*APLICAR PADDING VERTICAL U HORIZONTAL*/
+    padding: 25px;
+}
+
+#i1{
+    padding: 5px 10px;
+}
+
+#i2{
+    padding: 5px 10px;
+}
+
+#i3{
+    padding: 10px 10px;
+}
+
+input{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.p3{
+    background-color: yellow;
+    /* padding: 0 50px;
+    padding: 0 50px; */
+    padding: 10px 50px 15px 0;
+}
+
+div{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    /* margin: 10px;
+    margin: 0 25px; */
+    margin: 50px 0 0 100px;
+}
+
+/* Bordes */
+
+.border{
+    background-color: slateblue;
+    width: 250px;
+    text-align: center;
+    /* Bordes */
+    border-width: 5px; /* indica el ancho del borde */
+    border-color: black; /*indica el color del borde*/
+    border-style: solid;  /*indica el estilo del borde*/
+    border: 2px dotted red;  /*el primer valor es el ancho,
+    el segundo es el estilo,el tercero es el color*/
+    border-top-right-radius: 5px;  /*redondear las esquinas del borde*/
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 5px 0 0 0;
+}
+
+.border2{
+    background-color: blueviolet;
+    width: 250px;
+    text-align: center;
+    border-top: 3px solid blue; /*crea borde en lado superior del elemento*/
+    border-right: 3px solid red; /*crea borde en lado derecha del elemento*/
+    border-bottom: 3px solid purple; /*crea borde en lado inferior del elemento*/
+    border-left: 3px solid green; /*crea borde en lado izquierdo del elemento*/
+}
+
+input{
+    border: none; /*quita el borde*/
+}
+    

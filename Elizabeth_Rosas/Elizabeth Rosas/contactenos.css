@@ -1,0 +1,28 @@
+/* Propiedad de Desbordamiento */
+.desborde{
+    width: 150px;
+    height: 150px;
+    margin: 0 50px;
+    border: 3px solid brown; 
+    /*desbordamiento,valores:hidden,scroll,visible,auto*/
+    overflow: scroll; /*Para controlar las barras scroll 
+    en el eje"x" o "y" y usamos las propiedades-->
+    overflow-x:scroll;
+    overflow-y:hidden;.si queremos que sea visible lo damos
+    el valor de scroll,caso contrario hidden.*/
+}
+
+.objet-fit img{
+    width: 100%;
+    height: 100%;/*objet-fit nos permite ajustar el contenido dentro de una caja
+    y se utiliza especialmente con imagenes o archivos multimedia*/
+    object-fit: contain;/*valores del objet fit:none,fill,cover,contain,
+    scale-down(none-contain)*/
+    object-position: top;/*cover,none*/
+}
+.objet-fit{
+    width: 300px;
+    height: 200px;
+    border: 3px solid #130c71; ;
+    object-fit:fill;/*valores del objet-fit:none,fill*/
+}

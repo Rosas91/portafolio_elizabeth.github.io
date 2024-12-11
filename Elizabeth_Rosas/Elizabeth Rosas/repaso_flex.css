@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.containt1{
+    border: 6px solid #9e3c0beb;
+    display: flex;
+    justify-content: center;
+}
+
+.coontaint1 div:first-child{
+    flex-grow: 1; /*controlar el incremento del ancho
+    de un elemento en relaciones a otros elementos*/
+    flex-shrink: 4; /*controla cuanto encogerse un elemento
+    en relacion a los demas*/
+}
+
+.coontaint1 div:nth-child(2){
+    flex-grow: 2;
+}
+
+.coontaint1 div:last-child{
+    flex-grow: 1;
+}
+.containt1 div{
+    border: 5px solid #13640ec2;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+}
+.containt2{
+    width: 500px;
+    background-color:#776e6ed6 ;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px 0;
+}
+
+.containt2 p{
+    border: 5px solid #780b4c;
+    font-family: Comic Sans MS;
+}
+
+/* Seleccionar elementos hijos con pseudoclase */
+.containt2 p:first-child{
+    background-color: #bad746ec;
+} /*selecciona el primer hijo*/
+
+.containt2 p:last-child{
+    background-color: #d851ad;
+}/*selecciona el segundo hijo*/
+
+.containt2 p:nth-child(2){
+    background-color: #7d76dc;
+} /*selecciona al hijo que indicas en dentro de los parentesis,
+si queremos seleccionar los pares uso el valor even,los impares odd*/
+
+img{
+    border: 5px solid red;
+    width: 400px;
+    height: 400px;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
+.flex_content{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}

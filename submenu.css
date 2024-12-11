@@ -1,0 +1,62 @@
+header{
+    background-color: #d86868;
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    font-family: Comic Sans MS;
+}
+
+.m_horizontal{
+    display: flex;
+}
+
+.m_horizontal > li{
+    margin: 0 15px;
+}
+
+.m_horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+}
+
+.m_horizontal > li > a:hover{
+    background-color: brown;
+    color: beige;
+}
+
+.m_horizontal a{
+    color: #430303;
+    text-decoration: none;
+}
+
+.m_vertical{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.m_horizontal > li:hover .m_vertical{
+    display: block;
+}
+
+.m_vertical{
+    background-color: #14a45e;
+    width: 90px;
+}
+
+.m_vertical li{
+    padding: 0;
+}
+
+.m_vertical li:hover{
+    background-color: #77c448;
+}
+
+.m_vertical a{
+    display: block;
+    color: blue;
+    padding: 10px;
+}

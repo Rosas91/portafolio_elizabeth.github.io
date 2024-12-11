@@ -1,0 +1,158 @@
+header{
+    background-image: url(https://hotel-el-tumi-huaraz.hotelmix.es/data/Photos/450x450/12657/1265775/1265775055/El-Tumi-Hotel-Huaraz-Exterior.JPEG);
+    background-size: cover;
+    text-align: center;
+    color: #1e0215;
+    font-family: Broadway;
+    padding: 40px;
+    font-size: 20px;
+}
+
+p{
+    color: #39214be7;
+    font-size: 20px;
+    font-family: Arial Black;
+}
+
+nav li{
+    display: inline-block;
+}
+
+.m_horizontal{
+    display: flex;
+}
+
+.m_horizontal > li{
+    margin: 0 15px;
+}
+
+.m_horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+}
+
+.m_horizontal > li > a:hover{
+    background-color: brown;
+    color: beige;
+}
+
+.m_horizontal a{
+    color: #430303;
+    text-decoration: none;
+}
+
+.m_vertical{
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.m_horizontal > li:hover .m_vertical{
+    display: block;
+}
+
+.m_vertical{
+    background-color: #14a45e;
+    width: 155px;
+}
+
+.m_vertical li{
+    padding: 0;
+}
+
+.m_vertical li:hover{
+    background-color: #77c448;
+}
+
+.m_vertical a{
+    display: block;
+    color: blue;
+    padding: 5px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #08053f;
+    font-family: Arial Black;
+    font-size: 15px;
+}
+
+.text{
+    color: rgb(6, 6, 51);
+}
+
+p{
+    color: black;
+    font-size: 14px;
+}
+
+input{
+    width: 50%;
+    margin-top: 10px;
+}
+
+#i1{
+    padding: 8px;
+    text-align:left;
+    border-radius: 5px;
+}
+
+#i2{
+    padding:8px;
+    text-align:left;
+    border-radius: 5px;
+}
+
+#i3{
+    padding:8px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+ #i4{
+    
+    background-color: #104793;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+ }
+
+.formulario{
+    background-color: #b6dace;
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    margin:  auto;
+    padding: 15px;
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+}
+
+footer{
+    background-color: #2f3c40;
+    display: flex;
+    color: white;
+    padding: 50px;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+h3{
+    color: #e9e62c;
+}
